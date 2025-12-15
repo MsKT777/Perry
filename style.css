@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("bg.png");
+    background-size: 300px;
+}
+
+#textwrap {
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#Title {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#content img {
+    border: 2px solid gray;
+    margin: 10px;
+    transition: ease-in-out 0.2s;
+}
+
+#content img:hover {
+    border-color: black;
+    transform: scale(1.1);
+}
+
+#footer {
+    margin-top: 5px;
+    background-color: white;
+    text-align: center;
+}
